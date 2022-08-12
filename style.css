@@ -1,46 +1,33 @@
-p{
-  background-color:#FAF0E6; font-family: Arial, Helvetica, sans-serif; color:#2F4F4F; font-size: 20px; line-height:80%; text-align: center
+@import url("banner.css");
+
+html {
+  height: 100%;
+  }
+
+body {
+  background-image: linear-gradient(to bottom right, #7fa4c9, #5876d1, #f764bf, rgb(234, 134, 109));
+  }
+
+h1{
+  color:aliceblue;
 }
 
-li{
-  background-color:#E0FFFF; font-family: "Lucida Console", "Courier New", monospace; color:#4682B4; font-size: 20px; line-height:80%; text-align: center
-}
-
-h1{color:#008080; font-family:Arial, Helvetica, sans-serif; font-size: 30px; line-height:normal; text-align: center
-
-}
-
-h2{color: #008080; font-family:Arial, Helvetica, sans-serif; font-size: 20px; line-height:normal; text-align: center
-
-}
-
-h3{color:#008080; font-family:Arial, Helvetica, sans-serif; font-size: 20px; line-height:normal; text-align: center
-
-}
-
-a{color:#00FFFF;text-decoration:underline; text-align: center;
-}
-
-a:hover{color:#556B2F;text-decoration:underline overline
-
-}
-
-.container {
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 5px;
-  box-shadow: 0.5px 1.25px;
-}
-
-.pic_name {
-  background-color: white;
-  border: 1px solid blue;
-  border-radius: 5px;
-  box-shadow: 0.5px 1.25px;
-}
-
-.center {
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
+  padding-left: 50px;
+}
+
+p{
+  text-align:center;
+  font-size: 25px;
+  color: white;
+}
+
+ul{
+  text-align:center;
+  font-size: 30px;
+  color: white;
 }
